@@ -73,6 +73,22 @@ public class Colosseum {
      */
     public static Pokemon buildPokemon() {
         Pokemon tempPokemon = new Pokemon();
+        System.out.println("Enter Pokemon's name: ");
+        for (int f = 0;; f = 1) {
+            f = 1;
+            tempPokemon.name = myScan.next();
+        }
+        System.out.println("Enter attackLevel: ");
+
+        for (int f = 0;; f = 1) {
+            tempPokemon.attackLevel = myScan.nextInt();
+            if (tempPokemon.attackLevel)
+        }
+        System.out.println("Enter defenseLevel: ");
+        tempPokemon.defenseLevel = myScan.nextInt();
+        System.out.println("Enter hitPoints: ");
+        tempPokemon.hitPoints = myScan.nextInt();
+
         return tempPokemon;
     }
 
